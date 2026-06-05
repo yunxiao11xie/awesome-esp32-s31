@@ -1,0 +1,18 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.extensionActivationMode": "always",
+  "idf.openOcdConfigs": [
+    "board/esp32-wrover-kit-3.3v.cfg"
+  ],
+  "idf.portWin": "COM14",
+  "idf.currentSetup": "E:\\esp_idf_master\\.espressif\\master\\esp-idf",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s31"
+  },
+  "clangd.path": "E:\\esp_idf\\Espressif\\tools\\esp-clang\\esp-18.1.2_20240912\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=d:\\ESP32_learning\\02_lcd_lvgl_demo\\build"
+  ]
+}

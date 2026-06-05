@@ -1,0 +1,57 @@
+# This file was generated using idf.py save-defconfig or menuconfig [D] key. It can be edited manually.
+# Espressif IoT Development Framework (ESP-IDF) 6.2.0 Project Minimal Configuration
+#
+# default:
+CONFIG_IDF_TARGET="esp32s31"
+
+#
+# Serial flasher config
+#
+CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y
+# end of Serial flasher config
+
+#
+# Component config
+#
+
+#
+# ESP PSRAM
+#
+CONFIG_SPIRAM=y
+# end of ESP PSRAM
+
+#
+# ESP System Settings
+#
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=4096
+# end of ESP System Settings
+
+#
+# ESP LVGL PORT
+#
+CONFIG_LVGL_PORT_ENABLE_PPA=y
+# end of ESP LVGL PORT
+
+#
+# LVGL configuration
+#
+CONFIG_LV_MEM_CUSTOM=y
+
+#
+# Font usage
+#
+
+#
+# Enable built-in fonts
+#
+CONFIG_LV_FONT_MONTSERRAT_20=y
+# end of Enable built-in fonts
+# end of Font usage
+
+#
+# 3rd Party Libraries
+#
+CONFIG_LV_USE_GIF=y
+# end of 3rd Party Libraries
+# end of LVGL configuration
+# end of Component config

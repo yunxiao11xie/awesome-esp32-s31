@@ -1,0 +1,20 @@
+## ESP32-S31-Korvo 主组件依赖
+##
+## 必须的组件:
+##   lvgl/lvgl          ^8.3.0  - LVGL 图形库 (实际安装 8.4.0)
+##   esp_lvgl_port      ^2.8.0  - LVGL ESP-IDF 移植层
+##   esp-bsp            *       - ESP 官方板级支持包 (含 KORVO 各版本)
+##
+## 安装方法:
+##   在项目根目录执行: idf.py reconfigure
+##   或在 VSCode 中: 按 F1 → ESP-IDF: Set Editor Configuration → reconfigure
+##
+dependencies:
+  lvgl/lvgl: "^8.3.0"
+  esp_lvgl_port: "^2.8.0"
+  esp-bsp: "*"
+  ## 如果 esp-bsp 元组件无法解析, 可以改用具体的板级 BSP:
+  ## esp32_s3_korvo_3: "^1.*"
+  ##
+  ## TODO: 如果编译时提示找不到 BSP 头文件 "bsp/esp-bsp.h",
+  ##       请根据实际板型选择上述一个具体的 BSP 组件。

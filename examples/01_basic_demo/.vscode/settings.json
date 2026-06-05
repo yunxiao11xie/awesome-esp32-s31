@@ -1,0 +1,18 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.extensionActivationMode": "always",
+  "idf.openOcdConfigs": [
+    "board/esp32s31-lpcore-bridge.cfg"
+  ],
+  "idf.portWin": "COM14",
+  "idf.currentSetup": "E:\\esp_idf_master\\.espressif\\master\\esp-idf",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s31"
+  },
+  "clangd.path": "C:\\Espressif\\tools\\esp-clangd\\esp-21.1.3_20260408\\esp-clangd\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=d:\\ESP32_learning\\esp32s31_2project\\build"
+  ]
+}
