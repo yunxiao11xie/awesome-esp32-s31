@@ -69,6 +69,8 @@ EIM（ESP-IDF Installation Manager）是乐鑫官方发布的ESP-IDF安装与版
 
 ### 4.1 CodeBuddy简介
 CodeBuddy是腾讯云自研的AI编程辅助工具，深度集成于VSCode等主流IDE，通过中国信通院可信AI 4+级最高评级认证。底层支持混元、DeepSeek、GLM等多模型，其中**DeepSeek V4 Pro模型**在嵌入式开发场景表现优异，支持代码自动补全、智能对话、代码解释、代码生成等功能。
+为什么选择这个，因为目前codebuddy新用户注册免费送2000多积分，每天签到还可领取150积分，就可以免费白嫖deepseek v4pro/flash  GLM 5.1等模型。
+当然最好的选择还是claude code+deepseek v4 pro的组合。
 
 ![CodeBuddy模型选择界面](/assets/tutorial-images/codebuddy3.png)
 
