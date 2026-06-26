@@ -81,6 +81,24 @@ git clone https://github.com/yunxiao11xie/awesome-esp32-s31.git
 
 参照docs入门文档搭建 ESP-IDF 开发环境
 进入任意项目文件夹，idf.py set-target esp32s31配置芯片，编译 + 烧录
+🤖 AI 开发辅助
+
+本仓库配套了专用的 **ESP32 开发规范技能包**，可在 Claude Code 中直接加载使用：
+
+👉 **[esp32-dev-skill](https://github.com/yunxiao11xie/esp32-dev-skill)** — ESP32/ESP-IDF 分层架构、代码规范、调试辅助
+
+包含 BSP→HAL→应用层三层代码模板，配合 Claude Code + DeepSeek V4 Flash 使用效果更佳。
+
+安装方式：
+```bash
+git clone https://github.com/yunxiao11xie/esp32-dev-skill.git
+mkdir -p ~/.claude/skills
+cp -r esp32-dev-skill ~/.claude/skills/esp32-dev
+# 在 Claude Code 中用 /esp32-dev 激活
+```
+
+---
+
 🤝 仓库维护与共建
 我会持续更新上述规划的趣味小项目，每周不定时新增 Demo；
 欢迎提 Issues 提出想要实现的新项目创意；
