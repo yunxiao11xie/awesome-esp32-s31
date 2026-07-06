@@ -41,6 +41,9 @@ awesome-esp32-s31
 1. **RGB三色呼吸灯**｜路径：`examples/01_basic_demo/rgb_breath_led`
 2. **LVGL分屏控制器：GIF动图播放 + 触摸按键控RGB灯**｜路径：`examples/02_lcd_lvgl_demo/lvgl_gif_led_ctrl`
    ![屏幕点亮测试界面](/assets/tutorial-images/screen_display1.png)
+3. **[desk-beam — 桌面副屏伴侣](https://github.com/yunxiao11xie/desk-beam)** 🎵💡📊｜独立项目
+   ESP32-S31 桌面副屏，支持：QQ音乐/网易云歌词同步、WS2812 音乐律动氛围灯、DeepSeek 用量监控。基于 ESP-IDF v6.2 + LVGL 8.4，WiFi/WebSocket 连接 PC 端服务。
+   ![音乐歌词屏](https://raw.githubusercontent.com/yunxiao11xie/desk-beam/main/image/music.jpg)
 
 ## ⏳ 正在开发 & 后续规划趣味项目（预留空位，做完即补充）
 ### 🎤 语音音频系列
