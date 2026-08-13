@@ -1,3 +1,5 @@
+
+
 <!--
  * @Author: lingxiao
  * @Date: 2026-06-04 20:55:28
@@ -79,11 +81,9 @@ awesome-esp32-s31
 ```bash
 git clone https://github.com/yunxiao11xie/awesome-esp32-s31.git
 ```
+2. 参照 docs 入门文档搭建 ESP-IDF 开发环境
+3. 进入任意项目文件夹，`idf.py set-target esp32s31` 配置芯片，编译 + 烧录
 
-
-
-参照docs入门文档搭建 ESP-IDF 开发环境
-进入任意项目文件夹，idf.py set-target esp32s31配置芯片，编译 + 烧录
 🤖 AI 开发辅助
 
 本仓库配套了专用的 **ESP32 开发规范技能包**，可在 Claude Code 中直接加载使用：
